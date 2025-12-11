@@ -1,2 +1,2 @@
 # void-number-counts
-This project aims to use forward modelling to infer the radial density field
+Investigating whether evidence for a void exists from the density distribution of astrophysical objects
