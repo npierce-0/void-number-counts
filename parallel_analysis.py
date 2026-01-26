@@ -20,8 +20,8 @@ import pickle
 import sys
 og_sys_path = sys.path.copy()
 sys.path.append('/Users/noahpierce/Portsmouth/bias_testing/functions/')
-import dkw_tarp
-import dkw_pit
+import functions.dkw_tarp as dkw_tarp
+import functions.dkw_pit as dkw_pit
 sys.path = og_sys_path
 
 
@@ -43,7 +43,7 @@ psi = 0.8
 
 
 # load in pickle from HMC script    
-with open("/Users/noahpierce/Portsmouth/bias_testing/HMC_output/loguniform_300trial_40kgals.pkl", "rb") as f:
+with open("/Users/noahpierce/Portsmouth/bias_testing/HMC_output/numerical_schechter_nonpara_100trial_40kgals.pkl", "rb") as f:
     MPI_master = pickle.load(f)
     
     
